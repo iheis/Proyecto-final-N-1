@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;400;700&display=swap');
+
+*{
+    margin: 1%;
+    padding: 0%;
+    font-family: 'Encode Sans';    
+}
+
+header{
+    background-color: rgb(242, 248, 215);
+    margin: 0%;
+}
+
+body h2{
+    margin: 3%; 
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-weight:500;
+    font-size: 300%;
+}
+
+h2 em {
+    font-size: 20px;   
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content:space-between ;
+}
+
+
+.flexCenter h3{
+    margin-top: 3%;
+}
+.btnLab{
+    color: black;
+}
+
+.btnLab:hover{
+    color: blue;
+}
+
+.barraNav{
+    display: flex;  
+}
+.anclas{
+    color: aquamarine;
+}
+.anclas:hover{
+    color:yellow;
+}
+
+.contenedorRetrato{
+    display: inline;
+}
+
+.retrato{
+    display: block;
+    border-radius: 6px;
+    border: 2px solid black;
+    margin: 2%;  
+}
+
+.listNone{
+    list-style: none;
+}
+
+.listNone h4{
+    padding: 2%;
+}
+
+.hide{
+    display: none;
+}
+
+footer{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    background-color:  rgb(242, 248, 215);
+}
+
+.contenidoLaboral
+{
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.contenidoLaboral h4{
+    margin-top: 1%;
+}
+
+
